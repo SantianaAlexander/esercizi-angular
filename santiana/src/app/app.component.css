@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@1,500&family=Montserrat&display=swap');
+.rectangle {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(105, 219, 38);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    left: 500px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;  
+}
+span {
+  color: rgb(218, 31, 31);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}

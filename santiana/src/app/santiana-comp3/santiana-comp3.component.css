@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@1,500&family=Montserrat&display=swap');
+    p {
+      font-family: 'Montserrat', sans-serif;  
+    }
+    span {
+      color: rgb(31, 50, 218);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+    }

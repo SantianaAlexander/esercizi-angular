@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './santiana-comp3.component.css'
 })
 export class SantianaComp3Component {
-
+    span4 = "quarto"
 }

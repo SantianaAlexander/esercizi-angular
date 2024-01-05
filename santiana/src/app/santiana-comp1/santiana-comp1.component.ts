@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './santiana-comp1.component.css'
 })
 export class SantianaComp1Component {
-
+    span2 = "secondo"
 }
