@@ -13,6 +13,10 @@ h1 {
     position: absolute;
     left: 500px;
 }
+.frasi {
+  padding-top: 30px;
+  padding-left: 65px;
+}
 p {
   font-family: 'Montserrat', sans-serif;  
 }
