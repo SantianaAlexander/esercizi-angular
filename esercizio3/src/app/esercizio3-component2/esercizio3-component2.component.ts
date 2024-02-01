@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 export class Esercizio3Component2Component {
 
   nlike = 0;
+  color = "";
 
 
   randomlike() {
@@ -24,6 +25,14 @@ export class Esercizio3Component2Component {
     if (this.nlike < 100) {
        this.nlike = this.nlike + 1
     }
+    if (this.nlike < 33) {
+      this.color = "primary"
+    } else if(this.nlike >= 33 && this.nlike < 66) {
+      this.color = "accent"
+    } else if (this.nlike > 66) {
+      this.color = "warn"
+    }
+
     return this.nlike
     }
     
@@ -35,5 +44,12 @@ export class Esercizio3Component2Component {
     this.randomlike()
     console.log('Il componente è stato inizializzato')
     this.nlike = this.randomlike()
+    if (this.nlike < 33) {
+      this.color = "primary"
+    } else if(this.nlike >= 33 && this.nlike < 66) {
+      this.color = "accent"
+    } else if (this.nlike > 66) {
+      this.color = "warn"
+    }
   }
 }

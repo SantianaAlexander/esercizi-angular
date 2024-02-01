@@ -1,9 +1,9 @@
 <div class="like">
     <h4 id="nlike">{{nlike}}</h4>
-    <mat-progress-bar mode="determinate" value="32" class="progbar"></mat-progress-bar>
+    <mat-progress-bar mode="determinate" color={{color}} value={{nlike}} class="progbar"></mat-progress-bar>
     <br>
     <div class="btn">
-        <button mat-raised-button (click)="addLike()">Add a like</button>
+        <button mat-raised-button color={{color}} (click)="addLike()">Add a like</button>
     </div>
 </div>
 
