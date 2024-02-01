@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Esercizio3Component2Component } from '../esercizio3-component2/esercizio3-component2.component';
 import { Esercizio3Component3Component } from '../esercizio3-component3/esercizio3-component3.component';
 
+
+
 @Component({
   selector: 'app-esercizio3-component1',
   standalone: true,
