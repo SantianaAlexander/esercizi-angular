@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.maintxt {
+    background-image: url(../assets/images/wallpaperHome1.jpg);
+    background-size: cover;
+}
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.cln1 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.span1 {
+    font-weight: bolder;
+}
+.imgz {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.imgz:hover {
+    transform: scale(1.1);
+}
