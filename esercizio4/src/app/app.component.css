@@ -35,3 +35,6 @@ p {
 .imgz:hover {
     transform: scale(1.1);
 }
+h5 {
+    font-size: 13px;
+}
