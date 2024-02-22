@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 
 @Component({
-  selector: 'app-comp-navbar',
+  selector: 'card-angular1',
   standalone: true,
   imports: [MatCardModule],
-  templateUrl: './comp-navbar.component.html',
-  styleUrl: './comp-navbar.component.css'
+  templateUrl: './card-angularm1.component.html',
+  styleUrl: './card-angularm1.component.css'
 })
-export class CompNavbarComponent {
+export class CardAngularm1Component {
 
 }

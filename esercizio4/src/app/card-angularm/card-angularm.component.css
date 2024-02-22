@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+mat-card {
+    cursor: default;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cp {
+    border-radius: 15px;
+    background-color: #0d1b1e;
+    box-shadow: #dba226 0px 0px 0px 1px inset, #db7c26 0px 0px 0px 1px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.cp:hover {
+    transform: scale(1.1);
+}
 .ctitle {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
+    font-size: 70px;
 }
 p {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+}
+.bgCard {
+    background-color: #780116;
 }
