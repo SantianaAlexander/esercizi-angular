@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
+import { Router, RouterEvent } from '@angular/router';
 
 @Component({
   selector: 'app-comp-navbar',
@@ -9,5 +10,4 @@ import {MatCardModule} from '@angular/material/card';
   styleUrl: './comp-navbar.component.css'
 })
 export class CompNavbarComponent {
-
 }
