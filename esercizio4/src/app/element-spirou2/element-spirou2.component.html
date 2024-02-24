@@ -1,0 +1,25 @@
+<div class="row">
+    <h1 class="text-center">LA GOLDEN AGE</h1>
+    <div class="row riga1 pt-3">
+        <p class="pb-3">Il periodo 1945-1960 è stato descritto dalla critica come l'età dell'oro della rivista Spirou e dei fumetti belgi in generale, in parte incitato dall'apparizione nel 1946 della rivista concorrente di successo Tintin. Spirou riprese a pubblicare solo poche settimane dopo la liberazione del Belgio, ma ora in un formato molto più piccolo.
+            <br>Il periodo d'oro culminò negli anni '50 con l'introduzione di altri autori e serie come Peyo (Johan e Peewit nel 1952, I Puffi nel 1958), René Follet , Marcel Remacle , Jean Roba (con Boule et Bill), Maurice Tillieux (con Gil Jourdan ) e Mitacq.
+            <br>Nel 1960, la rivista aveva raggiunto una struttura fissa ed era cresciuta fino a 52 pagine, principalmente piene di nuovi fumetti europei (principalmente belgi), insieme ad alcune pagine di testo e pubblicità.
+        </p>
+        <br>
+        <br>
+        <app-divider-angularm></app-divider-angularm>
+        <br>
+        <div class="col-*-12 text-center pt-3">
+            <h4 [innerText]="Titles"></h4>
+            <img [src]="immagineUrl" class="img-fluid imgCovers">
+        </div>
+        <div class="row pt-3 rigaBtn">
+            <div class="col-1 btn">
+                <button class="button-27" role="button" (click)="btnIndietro()"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <div class="col-1 btn">
+                <button class="button-27" role="button" (click)="btnAvanti()"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</div>

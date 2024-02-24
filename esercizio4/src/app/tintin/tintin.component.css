@@ -1,0 +1,11 @@
+.logo {
+    width: 35%;
+    transition: transform .2s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.colLogo {
+    display: flex;
+    justify-content: center;
+}
