@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.logo {
-    width: 35%;
-    transition: transform .2s;
-}
-.logo:hover {
-    transform: scale(1.1);
-}
-.colLogo {
-    display: flex;
-    justify-content: center;
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 55px;
 }
 p {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
-.sp1 {
-    font-weight: bold;
+.row {
+    display: flex;
+    justify-content: center;
+}
+.imgL {
+    width: 20%;
 }

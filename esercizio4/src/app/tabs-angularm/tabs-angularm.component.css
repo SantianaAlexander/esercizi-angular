@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 55px;
+}
+.riga1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 33px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+<h1 class="text-center">I PERSONAGGI</h1>
+<mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center" class="pt-3">
+    @for (tab of asyncTabs | async; track tab) {
+      <mat-tab>
+        <br>
+        <ng-template mat-tab-label><h2 class="pt-3">{{tab.label}}</h2></ng-template>
+        <div class="row riga1">
+            <div class="col-lg-5">
+                <p>
+                    {{tab.content}}
+                </p>
+                <p>
+                    {{tab.content2}}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="{{tab.immagineUrl}}" class="img-fluid" width="70%">
+            </div>
+        </div>
+      </mat-tab>
+    }
+  </mat-tab-group>
