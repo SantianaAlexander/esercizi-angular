@@ -1,3 +1,30 @@
-<div *ngFor="let element of persone" class="contatto">
-    <p>Nome: <strong>{{element.persone}}</strong></p>
+<div class="section">
+    <div class="row container">
+        <div *ngFor="let persona of persone" class="contatto pt-5">
+            <div class="divcontatto" [ngStyle]="{
+                'background': 'azure'
+                }">
+                <div class="row">
+                    <div class="col-lg-4 col-*-12">
+                        <img [src]="persona.propic" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-*-12">
+                        <div [ngStyle]="{
+                           'text-align': 'center'
+                            }">
+                            <p>NOME: <strong>{{persona.nome}}</strong></p>
+                            <p>COGNOME: <strong>{{persona.cognome}}</strong></p>
+                            <p>NUMERO TELEFONICO: <strong>{{persona.numero}}</strong></p>
+                            <span *ngIf="persona.isOnline">
+                                <i class="fas fa-circle" style="color: green;"></i>
+                              </span>
+                              <span *ngIf="!persona.isOnline">
+                                <i class="fas fa-circle" style="color: red;"></i>
+                              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

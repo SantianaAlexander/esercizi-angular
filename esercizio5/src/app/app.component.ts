@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ListaContattiComponent } from './lista-contatti/lista-contatti.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ListaContattiComponent],
+  imports: [RouterOutlet, ListaContattiComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

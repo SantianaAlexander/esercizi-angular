@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.titleCard {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+.divcontatto {
+    margin: auto;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+p {
+    font-size: 18px;
+    padding-top: 3px;
+}
+.row {
+    display: flex;
+}
+img {
+    padding-top: 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    width: 150px;
+    height: 140px;
+    border-radius: 60%;
+}
+.cerchio {
+    width: 50px;
+    height: 50px;
+}
