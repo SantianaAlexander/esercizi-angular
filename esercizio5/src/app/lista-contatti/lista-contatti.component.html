@@ -1,16 +1,14 @@
 <div class="section">
     <div class="row container">
         <div *ngFor="let persona of persone" class="contatto pt-5">
-            <div class="divcontatto" [ngStyle]="{
-                'background': 'azure'
-                }">
+            <div class="divcontatto" [style.background-color]="persona.bgcolor">
                 <div class="row">
                     <div class="col-lg-4 col-*-12">
                         <img [src]="persona.propic" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-*-12">
-                        <div [ngStyle]="{
-                           'text-align': 'center'
+                        <div  [ngStyle]="{
+                           'text-align': 'center',
                             }">
                             <p>NOME: <strong>{{persona.nome}}</strong></p>
                             <p>COGNOME: <strong>{{persona.cognome}}</strong></p>
