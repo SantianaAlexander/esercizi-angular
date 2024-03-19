@@ -12,3 +12,14 @@
 img {
     width: 100%;
 }
+.title1 {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+.divtitle1 {
+    display: flex;
+    justify-content: center;
+}
