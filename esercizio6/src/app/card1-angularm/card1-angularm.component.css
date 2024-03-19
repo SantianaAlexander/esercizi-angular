@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.card {
+    background-color: #0A100D;
+    text-align: center;
+}
+h4 {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 33px;
+}
+.line {
+    background-color: white;
+}
+p {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
