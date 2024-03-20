@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.propic {
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+mat-list-item:nth-child(n){
+    height: 20vh;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  mat-card {
+    border: 1px solid white;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+  }
+.riga {
+    display: flex;
+    align-items: center;
+}
+p {
+    margin-bottom: 0px;
+}
+.flag {
+    width: 30%;
+}
+.divflag {
+    display: flex;
+    justify-content: baseline;
+}

@@ -1,0 +1,33 @@
+<mat-list>
+    <mat-list-item *ngFor="let element of giocatori">
+        <mat-card>
+            <mat-card-content>
+                <div class="row riga">
+                    <div class="col-2">
+                        <img [src]="element.propic" class="img-fluid propic">
+                    </div>
+                    <div class="col-3">
+                        {{element.nickname}}
+                    </div>
+                    <div class="col-3">
+                        {{element.ruolo}}
+                    </div>
+                    <div class="col-2">
+                        {{element.eta}}
+                    </div>
+                    <div class="col-2 divflag" [ngSwitch]="element.nazione">
+                        <p *ngSwitchCase="'US'">Stati Uniti</p><span class="badge" *ngSwitchCase="'US'"><img src="../../assets/img/US.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'BE'">Belgio</p><span class="badge" *ngSwitchCase="'BE'"><img src="../../assets/img/BE.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'PT'">Portogallo</p><span class="badge" *ngSwitchCase="'PT'"><img src="../../assets/img/PT.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'FR'">Francia</p><span class="badge"  *ngSwitchCase="'FR'"><img src="../../assets/img/FR.png"class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'MA'">Marocco</p><span class="badge" *ngSwitchCase="'MA'"><img src="../../assets/img/MA.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'CN'">Canada</p><span class="badge" *ngSwitchCase="'CN'"><img src="../../assets/img/CA.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'CI'">Cile</p><span class="badge" *ngSwitchCase="'CI'"><img src="../../assets/img/CI.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'UK'">Regno Unito</p><span class="badge" *ngSwitchCase="'UK'"><img src="../../assets/img/UK.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'BR'">Brasile</p><span class="badge" *ngSwitchCase="'BR'"><img src="../../assets/img/BR.png" class="img-fluid flag"></span>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-list-item>
+</mat-list>
