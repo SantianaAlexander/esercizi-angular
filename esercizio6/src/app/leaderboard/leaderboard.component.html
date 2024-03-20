@@ -1,6 +1,27 @@
 <mat-list>
+    <mat-card>
+        <mat-card-content>
+            <div class="row riga">
+                <div class="col-2 colh">
+                    <h4>PROPIC:</h4>
+                </div>
+                <div class="col-3 colh">
+                    <h4>NICKNAME:</h4>
+                </div>
+                <div class="col-2 colh">
+                    <h4>RUOLO:</h4>
+                </div>
+                <div class="col-2 colh">
+                    <h4>ETÀ:</h4>
+                </div>
+                <div class="col-2 colh">
+                   <h4>NAZIONE:</h4>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
     <mat-list-item *ngFor="let element of giocatori">
-        <mat-card>
+        <mat-card [ngClass]="{'bg-danger': element.ruolo === 'Attaccante', 'bg-info': element.ruolo === 'Difensore', 'bg-success': element.ruolo === 'Portiere'}">
             <mat-card-content>
                 <div class="row riga">
                     <div class="col-2">
@@ -9,7 +30,7 @@
                     <div class="col-3">
                         {{element.nickname}}
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         {{element.ruolo}}
                     </div>
                     <div class="col-2">
@@ -23,8 +44,13 @@
                         <p *ngSwitchCase="'MA'">Marocco</p><span class="badge" *ngSwitchCase="'MA'"><img src="../../assets/img/MA.png" class="img-fluid flag"></span>
                         <p *ngSwitchCase="'CN'">Canada</p><span class="badge" *ngSwitchCase="'CN'"><img src="../../assets/img/CA.png" class="img-fluid flag"></span>
                         <p *ngSwitchCase="'CI'">Cile</p><span class="badge" *ngSwitchCase="'CI'"><img src="../../assets/img/CI.png" class="img-fluid flag"></span>
-                        <p *ngSwitchCase="'UK'">Regno Unito</p><span class="badge" *ngSwitchCase="'UK'"><img src="../../assets/img/UK.png" class="img-fluid flag"></span>
+                        <p *ngSwitchCase="'UK'">Regno Unito</p><span class="badge" *ngSwitchCase="'UK'"><img src="../../assets/img/UK.jpg" class="img-fluid flag1"></span>
                         <p *ngSwitchCase="'BR'">Brasile</p><span class="badge" *ngSwitchCase="'BR'"><img src="../../assets/img/BR.png" class="img-fluid flag"></span>
+                    </div>
+                    <div class="col-1">
+                        <button mat-icon-button (click)="onClick(element)">
+                            <mat-icon>open_in_new</mat-icon>
+                        </button>
                     </div>
                 </div>
             </mat-card-content>

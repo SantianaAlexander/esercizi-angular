@@ -6,15 +6,16 @@
     border-radius: 50%;
 }
 mat-list-item:nth-child(n){
-    height: 20vh;
+    height: 22vh;
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
   mat-card {
-    border: 1px solid white;
-    font-size: 25px;
+    border: 1px solid #EFF6EE;
+    font-size: 22px;
     font-family: "Lato", sans-serif;
+    color: white;
   }
 .riga {
     display: flex;
@@ -24,9 +25,17 @@ p {
     margin-bottom: 0px;
 }
 .flag {
-    width: 30%;
+    width: 50%;
 }
 .divflag {
     display: flex;
     justify-content: baseline;
+}
+.flag1 {
+    width: 100%;
+}
+h4 {
+    font-weight: bolder;
+    font-size: 23px;
+    color: white
 }
