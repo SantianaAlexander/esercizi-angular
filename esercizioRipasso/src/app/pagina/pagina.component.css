@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bgHeader {
+    background-image: url("../../assets/image/Nuovo\ progetto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 125px;
+    color: #EAC435;
+    text-shadow: 3px 0px 7px rgba(81,67,21,0.8), -3px 0px 7px rgba(81,67,21,0.8), 0px 4px 7px rgba(81,67,21,0.8);
+}
+.title2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+mat-card {
+    box-shadow: none;
+    border-radius: 15px;
+    border: 2px solid #3A506B;
+}
+h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
