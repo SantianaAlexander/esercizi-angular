@@ -11,7 +11,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './pagina.component.css'
 })
 export class PaginaComponent {
-  viaggio1: any= [
-    
-  ]
+  // VIAGGIO1
+  meta: string = "MILANO - PARIGI";
+  durata: string = "1h 45";
+  compagnia: string = "";
+  aeropPart: string = "";
+  aeropArr: string = "";
+  prezzo: string = "";
 }
