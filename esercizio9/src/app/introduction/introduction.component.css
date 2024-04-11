@@ -1,0 +1,48 @@
+@font-face {
+    font-family: eleganza;
+    src: url("../../assets/font/CantataOne-Regular.ttf");
+}
+@font-face {
+    font-family: odissea;
+    src: url("../../assets/font/NHLEAna_.ttf");
+}
+@media (min-width: 1200px) {
+    .title1 {
+      font-size: 110px;
+    }
+    .title2 {
+        font-size: 25px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .title1 {
+      font-size: 30px;
+    }
+    .title2 {
+        font-size: 18px;
+        padding-bottom: 20px;
+      }
+  }
+h1 {
+    font-family: odissea;
+    color: #FFF;
+    text-shadow: -2px 0px 20px hotpink;
+}
+h3 {
+    font-family: odissea;
+    color: #FFF;
+    letter-spacing: 42px;
+    text-shadow: -2px 0px 20px hotpink;
+}
+#video-background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
