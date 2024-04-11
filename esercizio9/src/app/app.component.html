@@ -1,5 +1,13 @@
-<app-navigation></app-navigation>
-<br>
-<br>
-<app-introduction></app-introduction>
+<ng-template [ngIf]="pagina === 'welcome'">
+    <app-navigation (mandaDatiEvento)="onRiceviDati($event)" (mandaDatiEvento2)="onRiceviDati2($event)"></app-navigation>
+    <br>
+    <br>
+    <app-introduction></app-introduction>
+</ng-template>
+<ng-template [ngIf]="pagina === 'biglietti'">
+    <app-navigation (mandaDatiEvento)="onRiceviDati($event)" (mandaDatiEvento2)="onRiceviDati2($event)"></app-navigation>
+    <br>
+    <br>
+    <app-list></app-list>
+</ng-template>
 <router-outlet />

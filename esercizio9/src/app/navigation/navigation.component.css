@@ -1,12 +1,22 @@
+@font-face {
+    font-family: odissea;
+    src: url("../../assets/font/NHLEAna_.ttf");
+}
+@font-face {
+    font-family: eleganza;
+    src: url("../../assets/font/CantataOne-Regular.ttf");
+}
 .navbar {
-    background-color: #fff;
-    color: black;
+    background: linear-gradient(to bottom, #e6e6e6 0%, #cccccc 100%);
 }
 .nav-item {
-    color: black;
     display: flex;
     align-items: center;
 }
-a {
-    font-size: large;
+.btn {
+    font-size: x-large;
+    font-family: odissea;
+    text-shadow: 
+    0px 0px 2px #FF0BBE, 
+    0px 2px 5px rgba(#FF0BBE, 0.5);
 }
