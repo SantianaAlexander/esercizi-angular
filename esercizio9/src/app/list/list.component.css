@@ -1,0 +1,45 @@
+@font-face {
+    font-family: futura;
+    src: url("../../assets/font/FUTURA55REGULAR.TTF");
+}
+@font-face {
+    font-family: odissea;
+    src: url("../../assets/font/NHLEAna_.ttf");
+}
+#video-background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.card {
+    
+}
+.row:hover {
+    background-color: white;
+    color: black;
+}
+.row {
+    background-color: transparent;
+    font-family: odissea;
+    font-size: 16px;
+    line-height: 1.1;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+} 
+ 
+.divcol {
+    display: flex;
+    justify-content: center;
+}
