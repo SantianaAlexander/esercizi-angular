@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.imgLogo {
+    width: 20%;
+}
+.divh3 {
+    display: flex;
+    justify-content: center;
+}
+.h3intro {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    max-width: 1100px;
+    line-height: 1.4;
+}
+mat-divider {
+    border: 2px solid #F277C6;
+    border-radius: 25px;
+}
+.head1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.4;
+    border-bottom: 2px solid#000000;
+    width: fit-content;
+    margin: 0 auto;
+}
+.col-md-10 {
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor:default;
+}
+.col1:hover {
+    background-color: #F34213;
+    color: #E0CA3C;
+}
+.col2:hover {
+    background-color: #04395E;
+    color: #70A288;
+}
+.col3:hover {
+    background-color: #0A3200;
+    color: #B8336A;
+}
+.col4:hover {
+    background-color: #4B1D3F;
+    color: #D62246;
+}
+.col5:hover {
+    background-color: #70EE9C;
+    color: #9C528B;
+}
+.col6:hover {
+    background-color: #5FA8D3;
+    color: #CAE9FF;
+}
+.col7:hover {
+    background-color: #F48498;
+    color: #ACD8AA;
+}
+h2 {
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding: 10px;
+}

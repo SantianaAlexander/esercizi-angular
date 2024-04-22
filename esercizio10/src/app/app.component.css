@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .navbar {
     background-color: #7EC4CF;
+    position: sticky; top: 0; z-index: 1020;
 }
 .nav-item {
     display: flex;
@@ -17,26 +18,4 @@
     0px 0px 2px #FF0BBE, 
     0px 2px 5px rgba(#FF0BBE, 0.5);
 }
-.imgLogo {
-    width: 20%;
-}
-.divh3 {
-    display: flex;
-    justify-content: center;
-}
-.h3intro {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    text-align: center;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 35px;
-    max-width: 1200px
-}
-.divider {
-    border: 1px solid black;
-}
-.divDivider {
-    display: flex;
-    justify-content: center;
-}
+

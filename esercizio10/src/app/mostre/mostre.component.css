@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rampart+One&display=swap');
+.row {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  @media (min-width: 1200px) {
+    .card {
+        width: 34rem;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    .card {
+        width: 28rem;
+    }
+  }
+.card {
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    cursor: default;
+   
+   img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity .2s ease-out;
+}
+  
+h2 {
+    position: absolute;
+    inset: auto auto 380px 10px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+    
+p, button {
+    position: absolute;
+    opacity: 1;
+    max-width: 80%;
+    font-size: 15px;
+    
+}
+    
+p {
+    inset: auto auto 80px 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px) saturate(10%);
+    padding: 20px;
+    border-radius: 15px;
+}
+    
+button {
+    inset: auto auto 40px 30px;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 15px;
+    color: black;
+}
+    
+    
+&:hover p, &:hover button {
+    opacity: 1;
+}
+    
+&:hover img {
+    transition: opacity .3s ease-in;
+    opacity: 1;
+}
+  
+}
+  
+.material-symbols-outlined {
+    vertical-align: middle;
+}

@@ -1,1 +1,16 @@
-<p>mostre works!</p>
+<div class="section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 main" style="gap: 30px;">
+                <div class="card" *ngFor="let element of mostre">
+                    <img src="{{element.img}}">
+                    <div class="card-content">
+                        <h2>{{element.nomeMostra}}</h2>
+                        <p>{{element.descrizione}}</p>
+                        <button>Per saperne di più</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
