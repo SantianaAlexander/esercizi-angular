@@ -1,0 +1,300 @@
+<ng-template [ngIf]="identificatore === ':1'"> <!-- ID 1 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra1">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra1">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">PIETÀ VATICANA</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">LEDA E IL CIGNO</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':2'"> <!-- ID 2 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra2">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd2" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra2">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">DAVIDE E GOLIA</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">RAGAZZO CHE MONDA LA FRUTTA</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':3'"> <!-- ID 3 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra3">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd3" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra3">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">LA VISIONE DELLA MORTE</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">ACQUILA NERA DI PRUSSIA</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':4'"> <!-- ID 4 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra4">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd4" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra4">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">LA LATTAIA DI BORDEAUX</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">DUELLO RUSTICANO</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':5'"> <!-- ID 5 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra5">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd5" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra5">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">VISIONI SIMULTANEE</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">DINAMISMO DI UN CALCIATORE</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':6'"> <!-- ID 6 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra6">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd6" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra6">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">AMORE E DOLORE</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">L'ANSIA</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>
+
+<ng-template [ngIf]="identificatore === ':7'"> <!-- ID 7 -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row" *ngFor="let element of mostra7">
+                <div class="col-md-5 main" style="gap: 30px;">
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.img}}" class="img" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-7 main">
+                    <div class="cardN2 crd7" style="border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                        <div class="card-content" style="padding: 15px">
+                            <h1>{{element.nomeMostra | uppercase}}</h1>
+                            <p>{{element.descrizione}}</p>
+                            <p>Artista: {{element.nomeArtista}}</p>
+                            <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                            <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center h1N1 pt-3">LE OPERE</h1>
+            <div class="col-md-8" style="margin: 0 auto">
+                <mat-divider></mat-divider>
+            </div>
+            <div class="row pt-3" *ngFor="let element of mostra7">
+                <div class="col-md-6 main">
+                    <h2 class="text-center pb-3">LO STAGNO DELLE NINFEE</h2>
+                    <div class="card" d-flex flex-column style="border-radius: 25px;">
+                        <img src="{{element.imgO1}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column main">
+                    <h2 class="text-center pb-3">IMPRESSIONE, LEVAR DEL SOLE</h2>
+                    <div class="card" style="border-radius: 25px;">
+                        <img src="{{element.imgO2}}" class="img-fluid" style="border-radius: 25px; transition: transform .2s; width: 28rem;">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</ng-template>

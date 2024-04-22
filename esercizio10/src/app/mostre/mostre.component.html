@@ -1,13 +1,22 @@
 <div class="section">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" *ngFor="let element of mostre2nd">
             <div class="col-md-6 main" style="gap: 30px;">
-                <div class="card" *ngFor="let element of mostre">
+                <div class="card" >
                     <img src="{{element.img}}">
                     <div class="card-content">
                         <h2>{{element.nomeMostra}}</h2>
                         <p>{{element.descrizione}}</p>
-                        <button>PER SAPERNE DI PIÚ</button>
+                        <button (click)="btn($event)" routerLink="/Mostre/:{{element.id}}">PER SAPERNE DI PIÚ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 main">
+                <div class="cardN2" style="background-color: #B07BAC; border-radius: 10px; font-size: 20px; box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);">
+                    <div class="card-content" style="padding: 15px">
+                        <p>Artista: {{element.nomeArtista}}</p>
+                        <p>Data di inizio: {{element.dataInizio | date: "mediumDate"}}</p>
+                        <p>Data di fine: {{element.dataFine | date: "mediumDate"}}</p>
                     </div>
                 </div>
             </div>

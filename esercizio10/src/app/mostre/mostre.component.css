@@ -10,13 +10,13 @@
     align-items: center;
     padding: 50px;
     font-family: "Montserrat", sans-serif;
-  }
+}
 
   @media (min-width: 1200px) {
     .card {
         width: 34rem;
     }
-  }
+}
   @media (max-width: 1199.98px) {
     .card {
         width: 28rem;
@@ -32,7 +32,7 @@
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     cursor: default;
    
-   img {
+img {
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -42,7 +42,22 @@
     opacity: 0.9;
     transition: opacity .2s ease-out;
 }
-  
+
+.cardN2 {
+    background-color: #6B2737;
+    height: 30rem;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+.cardN2:hover {
+    transition: opacity .3s ease-in;
+    opacity: 1;
+}
+
 h2 {
     position: absolute;
     inset: auto auto 380px 10px;
@@ -63,7 +78,7 @@ p {
     inset: auto auto 80px 30px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2px) saturate(10%);
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     font-size: 15px;
 }

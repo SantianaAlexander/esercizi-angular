@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rampart+One&display=swap');
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+  .row {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border-radius: 10px;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.cardN2 {
+    background-color: #B07BAC;
+    transition: transform .2s;
+}
+.cardN2:hover {
+    transform: scale(1.1);
+    background-color: #F34213;
+    color: #E0CA3C;
+}
+.crd2:hover {
+    transform: scale(1.1);
+    background-color: #04395E;
+    color: #70A288;
+}
+.crd3:hover {
+    transform: scale(1.1);
+    background-color: #0A3200;
+    color: #B8336A;
+}
+.crd4:hover {
+    transform: scale(1.1);
+    background-color: #4B1D3F;
+    color: #D62246;
+}
+.crd5:hover {
+    transform: scale(1.1);
+    background-color: #70EE9C;
+    color: #9C528B;
+}
+.crd6:hover {
+    transform: scale(1.1);
+    background-color: #5FA8D3;
+    color: #CAE9FF;
+}
+.crd7:hover {
+    transform: scale(1.1);
+    background-color: #F48498;
+    color: #ACD8AA;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+mat-divider {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.h1N1 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+}
