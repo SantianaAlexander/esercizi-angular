@@ -72,3 +72,9 @@ h2 {
     margin-bottom: 0px;
     font-family: "Montserrat", sans-serif;
 }
+.cardPrice {
+    transition: transform .2s;
+}
+.cardPrice:hover {
+    transform: scale(1.1);
+}
